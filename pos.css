@@ -23,21 +23,21 @@ section{
 
 }
 
+
+
 section:last-of-type{
 	border-bottom: none;
 }
 
 .electric-purple{
 	background: #C200FB;
-
-
-
+	float: left;
 
 }
 
 .raspberry{
 	background: #EC0868;
-
+	float: left;
 }
 
 .ferrari-red{
@@ -58,8 +58,7 @@ section:last-of-type{
 
 .col {
 	height: 200px;
-	width: 200px;
-
+	width: 250px;
 
 }
 
@@ -68,12 +67,32 @@ section:last-of-type{
 }
 
 .clearfix::after{
-	content: "";
+	content: "huhu";
 	display: block;
 	width: 100%;
 	clear: both;
 }
 
-.cl{
+.clear{
 	clear: both;
 }
+
+.container {
+	background: lightblue;
+	}
+
+
+	.colu {
+		height: 100px;
+		width: 100px;
+	}
+
+	.green {
+		background: green;
+		float: left;
+	}
+
+	.red {
+		background: darkred;
+		float: right;
+	}
